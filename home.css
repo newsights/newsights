@@ -1,19 +1,83 @@
-.Mapbg {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  height:100vh
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #FFF0D9;
 }
 
 
- @keyframes fadeIn { 
-  from { opacity: 0.2; } 
+.map{
+        display: inline-block;
+        position: relative;
+        margin: 0 auto;
+        height: 100vw;
+        width: calc(100vw * (1688 / 3000));
 }
 
-.Chinatown {
-  position: absolute;
-  top: 65%;
-  left: 145%;
-  
-  animation: fadeIn 1.5s infinite alternate;
+.foreground{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 100%
+}
+
+#map_background{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+.icons{
+    width: 20%;
+    height: 200%;
+    position: absolute;
+    transition: 0.3s; 
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: translateX(-50%) translateY(0%)
+}
+
+
+#Chinatown{
+
+    left: 27.8%;
+    top: 41%;
+    background-image: url(‘../Map/Chinatown.jpg’);
+
+}
+
+#TS{
+    left: 28.5%;
+    top: 40%;
+    background-image: url(‘../Map/TS.png’);
+
+}
+
+#CP{
+    left: 22.5%;
+    top: 45%;
+    background-image: url(‘../Map/CP.png’);
+}
+
+#WSP{
+    left: 43.7%;
+    top: 53.3%;
+    background-image: url(‘../Map/WSP.png’);
+}
+
+#Chelsea{
+    left: 43.7%;
+    top: 53.3%;
+    background-image: url(‘../Map/Chelsea.png’);
+}
+
+.pins:hover{
+    /*width: 5vh;
+    height: 5vh; */
+    z-index: 100;
+    filter: invert(1)
 }
