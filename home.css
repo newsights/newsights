@@ -1,11 +1,45 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-  background-image: url('Map.jpg');
   background-color: #314860;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-width: cover;
   animation: 10000ms ease-in-out infinite opacity-change;
 	}
+
+.home{
+        display: inline-block;
+        position: relative;
+        margin: 0 auto;
+        width: 100vw;
+      
+}
+
+#Mapbg{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+@keyframes fadeInUp {
+  from { 
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+  #Mapbg{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 
 .Chinatown {
   position: absolute;
@@ -14,3 +48,4 @@ body {
   
   animation: fadeIn 1.3s infinite alternate;
 }
+
