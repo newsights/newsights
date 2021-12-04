@@ -1,7 +1,6 @@
 body{
     padding: 0;
     margin: 0;
-    overflow: hidden;
     background-color: #FFF0D9;
 }
 
@@ -9,6 +8,8 @@ body{
 .map{
         display: inline-block;
         position: relative;
+        top: 50%;
+        left: 50%;
         margin: 0 auto;
         height: 100vw;
         width: calc(100vw * (3000 / 1688));
