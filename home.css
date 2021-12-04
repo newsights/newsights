@@ -46,33 +46,33 @@ body{
 
     left: 27.8%;
     top: 41%;
-    background-image: url(‘../Map/Chinatown.jpg’);
+    background-image: url(‘Map/Chinatown.png’);
 
 }
 
 #TS{
     left: 28.5%;
     top: 40%;
-    background-image: url(‘../Map/TS.png’);
+    background-image: url(‘Map/TS.png’);
 
 }
 
 #CP{
     left: 22.5%;
     top: 45%;
-    background-image: url(‘../Map/CP.png’);
+    background-image: url(‘Map/CP.png’);
 }
 
 #WSP{
     left: 43.7%;
     top: 53.3%;
-    background-image: url(‘../Map/WSP.png’);
+    background-image: url(‘Map/WSP.png’);
 }
 
 #Chelsea{
     left: 43.7%;
     top: 53.3%;
-    background-image: url(‘../Map/Chelsea.png’);
+    background-image: url(‘Map/Chelsea.png’);
 }
 
 .pins:hover{
