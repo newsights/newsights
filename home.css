@@ -1,7 +1,15 @@
+.home{
+        display: inline-block;
+        position: relative;
+        margin: 0 auto;
+        width: 100vw;
+      
+}
+
 #Mapbg{
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .Chinatown {
