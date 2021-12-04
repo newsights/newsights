@@ -1,19 +1,9 @@
-html, body {
-  height: 100vh;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
+.Mapbg {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px red solid;
 }
-
-
-body {
-  background-image: url(../Map/Map.jpg);
-  background-color: #314860;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  animation: 10000ms ease-in-out infinite opacity-change;
-	}
 
 
  @keyframes fadeIn { 
