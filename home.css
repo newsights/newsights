@@ -1,1 +1,13 @@
+#Mapbg{
+    width:100%;
+    height: 100%;
+    display: block;
+}
 
+.Chinatown {
+  position: absolute;
+  top: 42%;
+  left: 75%;
+  
+  animation: fadeIn 1.3s infinite alternate;
+}
